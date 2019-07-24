@@ -1,4 +1,4 @@
-{ 
+public   with sharing class AccountPagination { 
      
     @AuraEnabled(cacheable=true) 
     public static AccountWrapper getAccount(Integer pageNumber ,Integer recordToDisplay) { 
